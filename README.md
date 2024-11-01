@@ -48,7 +48,8 @@
 </div>
 
 <div style="margin-top:16px;margin-bottom:16px">
-    
+    Here is a diagram that describes the workflow.
+    <img src = "https://github.com/fabianono/ETL_LocalPipeline/blob/master/ETL_LocalPipeline-Diagram.png">
 </div>
 
 <div>
