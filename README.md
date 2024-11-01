@@ -42,7 +42,7 @@
         <li>Change your environment python source to the python installed in your working directory. <i>Export</i> the environmental variable <b>AIRFLOW_HOME</b>=current working directory. Run <i>airflow db init</i> in your terminal.
         <li>Run the startupscript.sh
         <li>Wait until you can see messages being queued for processing by Spark in your terminal.
-        <li>You may run command <u>docker exec -it cassandra cqlsh -u cassandra -p cassandra</u> to enter into the Cassandra docker container and then <u>select * from spark_datastream.weather;</u> to see the data injested.
+        <li>You may run command <i>docker exec -it cassandra cqlsh -u cassandra -p cassandra</i> to enter into the Cassandra docker container and then <i>select * from spark_datastream.weather;</i> to see the data injested.
     </ol>
 </span>
 </div>
