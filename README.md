@@ -1,5 +1,7 @@
-<h1>ETL Pipeline with localized storage</h1>
-<span>This repository is my attempt at injesting data from the weather API from OpenWeatherMap.com.</span>
+<div>
+    <h1>ETL Pipeline with localized storage</h1>
+    <span>This repository is my attempt at injesting data from the weather API from OpenWeatherMap.com.</span>
+</div>
 
 <div style="margin-top:16px;margin-bottom:16px">
 <span>
