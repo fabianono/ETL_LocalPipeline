@@ -146,7 +146,7 @@ services:
 
   airflow-webserver:
     <<: *airflow-common
-    command: webserver #might not need this since command is already in entrypoint
+    command: webserver
     networks:
       - confluent
     entrypoint: ['/opt/airflow/scripts/entrypoint_webserver.sh']

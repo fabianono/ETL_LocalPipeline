@@ -40,6 +40,7 @@
             </ol>
         <li>Check the JAR packages against main/sparkstream.py code and make the changes accordingly.
         <li>Change your environment python source to the python installed in your working directory. <i>Export</i> the environmental variable <b>AIRFLOW_HOME</b>=current working directory. Run <i>airflow db init</i> in your terminal.
+        <li>Set executable permissions for entrypoint_scheduler.sh and entrypoint_webserver.sh. Run <i>chmod +x</i> in your terminal for these files.
         <li>Run the startupscript.sh
         <li>Wait until you can see messages being queued for processing by Spark in your terminal.
         <li>You may run command <i>docker exec -it cassandra cqlsh -u cassandra -p cassandra</i> to enter into the Cassandra docker container and then <i>select * from spark_datastream.weather;</i> to see the data injested.
